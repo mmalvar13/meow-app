@@ -13,7 +13,6 @@
 
 					<div ng-view></div>
 
-
 				</div>
 			</main>
 		</div>
