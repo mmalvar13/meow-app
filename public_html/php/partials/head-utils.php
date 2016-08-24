@@ -32,8 +32,11 @@
 		<!--Load OUR Angular files-->
 		<script src="angular/meow-app.js"></script>
 		<script src="angular/route-config.js"></script>
+		<!--Directives come before controllers-->
+		<script src="angular/directives/bootstrap-breakpoint.js"></script>
 		<!--Load controllers-->
 		<script src="angular/controllers/home-controller.js"></script>
+		<script src="angular/controllers/nav-controller.js"></script>
 		<script src="angular/controllers/donate-controller.js"></script>
 		<script src="angular/controllers/signup-controller.js"></script>
 		<script src="angular/controllers/treats-controller.js"></script>
